@@ -1,42 +1,47 @@
-# Coca-Cola Landing Page
+# Project Coca-Cola
 
-Landing page inspirada na Coca-Cola, criada para apresentar um visual moderno com foco em destaque do produto, navegação simples e identidade visual forte.
+Landing page estatica inspirada na marca Coca-Cola.
 
-## Sobre o projeto
+## Descricao
 
-O site é uma página única com:
+Pagina unica com layout moderno focado em展示 de produto, navegacao simples e identidade visual forte. Desenvolvida com HTML5 e CSS3 puro.
 
-- cabeçalho com logo e menu de navegação;
-- seção principal com chamada de destaque e texto promocional;
-- botão de ação para compra;
-- ícones de redes sociais;
-- imagens do produto em composição visual.
+## Funcionalidades
 
-## Tecnologias utilizadas até o momento
+- Header com logo e menu de navegacao
+- Secao hero com chamada para acao
+- Icones de redes sociais
+- Composicao de imagens de produtos
+- Elementos decorativos com clip-path
 
-- **HTML5**: estrutura principal da página.
-- **CSS3**: estilização, posicionamento dos elementos e efeitos visuais.
-- **Google Fonts**: importação da fonte `Poppins` para o layout.
-- **Imagens locais**: uso dos arquivos da pasta `assets/` para logo, ícones sociais e garrafas.
+## Tecnologias
 
-## Estrutura do projeto
+- **HTML5**
+- **CSS3** (clip-path, transforms, transitions)
+- **Google Fonts** (Poppins)
+- **Assets:** Imagens PNG locais
 
-- `index.html`: página principal.
-- `style.css`: estilos da interface.
-- `assets/`: imagens e ícones do site.
+## Como Rodar
 
-## Como visualizar
+```bash
+# Abra diretamente no navegador
+open index.html
 
-1. Abra o arquivo `index.html` no navegador.
-2. Ou, se preferir, use a extensão Live Server no VS Code.
+# Ou use o Live Server do VS Code
+# Botao direito -> Open with Live Server
+```
 
-## Status atual
+Nenhuma instalacao ou build necessario.
 
-O projeto está em desenvolvimento e, no momento, funciona como uma landing page estática focada em apresentação visual.
+## Estrutura
 
-## Próximos passos possíveis
+```
+project-coca-cola/
+├── index.html      # Pagina principal
+├── style.css       # Estilos
+└── assets/         # Imagens (logo, garrafas, redes sociais)
+```
 
-- melhorar a responsividade para tablet e celular;
-- adicionar menu mobile;
-- inserir interações com JavaScript;
-- criar novas seções de conteúdo.
+## Licenca
+
+MIT License - Diego Vieira
