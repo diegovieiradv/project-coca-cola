@@ -164,6 +164,31 @@ header .navigation li a{
     transform: rotate(-15deg);
 }
 
+/* ===== NAV LINK - SUBLINHADO VERMELHO NO HOVER ===== */
+
+header .navigation li a {
+  position: relative;
+}
+
+header .navigation li a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #e51e2a;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+header .navigation li a:hover::after,
+header .navigation li a:focus::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 /* ===== RESPONSIVIDADE ===== */
 
 /* Tablet */
