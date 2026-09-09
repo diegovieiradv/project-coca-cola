@@ -170,7 +170,7 @@ header .navigation li a{
     transform: rotate(15deg);
 }
 .boxImg .img4{
-    animation: sway 3s ease-in-out infinite 0.5s;
+    transform: rotate(-15deg);
 }
 
 /* ===== NAV LINK - SUBLINHADO VERMELHO NO HOVER ===== */
