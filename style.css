@@ -151,8 +151,17 @@ header .navigation li a{
     max-width: 100%;
     height: auto;
 }
+@keyframes sway {
+    0%, 100% {
+        transform: rotate(-15deg) translateX(0);
+    }
+    50% {
+        transform: rotate(-15deg) translateX(15px);
+    }
+}
+
 .boxImg .img1{
-    transform: rotate(-15deg); 
+    animation: sway 3s ease-in-out infinite;
 }
 .boxImg .img2{
     transform: rotate(5deg);
@@ -161,7 +170,7 @@ header .navigation li a{
     transform: rotate(15deg);
 }
 .boxImg .img4{
-    transform: rotate(-15deg);
+    animation: sway 3s ease-in-out infinite 0.5s;
 }
 
 /* ===== NAV LINK - SUBLINHADO VERMELHO NO HOVER ===== */
